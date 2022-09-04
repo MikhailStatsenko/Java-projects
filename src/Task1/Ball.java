@@ -1,4 +1,4 @@
-package first;
+package Task1;
 
 public class Ball {
     private String color;
