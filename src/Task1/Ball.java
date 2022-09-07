@@ -47,5 +47,4 @@ public class Ball {
                 ", weight=" + weight +
                 '}';
     }
-
 }

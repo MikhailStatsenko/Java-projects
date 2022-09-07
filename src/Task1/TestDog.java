@@ -12,5 +12,4 @@ public class TestDog {
         System.out.println(firstDog);
         fourthDog.intoHumanAge();
     }
-
 }
