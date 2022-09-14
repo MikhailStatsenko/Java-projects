@@ -1,4 +1,4 @@
-package Task3;
+package Task3.Part1;
 
 public abstract class Shape {
     protected String color;

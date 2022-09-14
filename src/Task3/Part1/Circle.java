@@ -1,4 +1,4 @@
-package Task3;
+package Task3.Part1;
 
 public class Circle extends Shape{
     protected double radius;
