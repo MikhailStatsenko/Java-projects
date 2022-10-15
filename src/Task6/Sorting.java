@@ -1,7 +1,5 @@
 package Task6;
 
-
-
 public class Sorting{
     public static void shuffle(Student[] arr){
         for (int i = 0; i < arr.length; i++){

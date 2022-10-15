@@ -1,6 +1,7 @@
 package Task8;
 
 import java.util.Collection;
+import java.util.LinkedHashMap;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class WaitList <E> implements IWaitList <E> {

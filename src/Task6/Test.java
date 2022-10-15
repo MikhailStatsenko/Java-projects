@@ -1,9 +1,5 @@
 package Task6;
 
-import javax.swing.plaf.synth.SynthTableUI;
-import java.lang.reflect.Array;
-import java.net.IDN;
-
 public class Test {
     static void printArr (Student[] arr){
         for (int i = 0; i < arr.length; i++){
@@ -61,7 +57,6 @@ public class Test {
             iDNumber2[i] = new Student();
         }
 
-
         Sorting.shuffle(iDNumber1);
         Sorting.shuffle(iDNumber2);
 
@@ -69,7 +64,6 @@ public class Test {
         printArr(iDNumber1);
         System.out.println("Array №2 before sorting:");
         printArr(iDNumber2);
-
 
         Student[] iDNumberMerged = new Student[studentCount1+studentCount2];
 

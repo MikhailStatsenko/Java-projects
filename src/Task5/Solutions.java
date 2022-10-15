@@ -78,7 +78,7 @@ public class Solutions {
     }
 
     public static void main(String[] args) {
-        //oddSequence();
+        oddSequence();
 
         //int num = sc.nextInt();
         //digitsLeftToRight(num);
@@ -86,6 +86,6 @@ public class Solutions {
 
         //System.out.println(equalToMax(0, 0));
 
-        System.out.println(maxInSequence());
+        //System.out.println(maxInSequence());
     }
 }

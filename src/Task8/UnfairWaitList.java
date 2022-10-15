@@ -3,9 +3,7 @@ package Task8;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class UnfairWaitList <E> extends WaitList <E> {
-    public UnfairWaitList() {
-
-    }
+    public UnfairWaitList() {}
 
     public void remove(E element) {
         content.remove(element);
