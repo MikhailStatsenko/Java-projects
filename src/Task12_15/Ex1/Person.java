@@ -9,20 +9,20 @@ public class Person {
         this.surname = surname;
     }
 
-    public Person(String name, String surname) {
+    public Person(String surname, String name) {
         this.name = name;
         this.patronymic = "";
         this.surname = surname;
     }
 
-    public Person(String name, String surname, String patronymic) {
+    public Person(String surname, String name, String patronymic) {
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
     }
 
     private StringBuilder getInitial (String str){
-        StringBuilder result = new StringBuilder("");
+        StringBuilder result = new StringBuilder();
         if (!str.isEmpty()){
             result.append(str.charAt(0)).append(".");
         }
@@ -41,6 +41,4 @@ public class Person {
         }
         return result.toString();
     }
-
-
 }

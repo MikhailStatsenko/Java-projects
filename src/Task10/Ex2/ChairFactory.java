@@ -2,9 +2,7 @@ package Task10.Ex2;
 
 public class ChairFactory implements ChairAbstractFactory {
     @Override
-    public MagicChair createMagicChair() {
-        return new MagicChair("Пожалуйста");
-    }
+    public MagicChair createMagicChair() {return new MagicChair("Пожалуйста");}
 
     @Override
     public MultifunctionalChair createMultifunctionalChair() {

@@ -8,11 +8,4 @@ public class Client {
     public void sitChair(Chair chair){
         System.out.println(this.name + " сидит на стуле " + chair.getChairType());
     }
-
-    public static void main(String[] args) {
-        Client cl = new Client("Виталий");
-        ChairFactory factory = new ChairFactory();
-        Chair ch = factory.createMagicChair();
-        cl.sitChair(ch);
-    }
 }
