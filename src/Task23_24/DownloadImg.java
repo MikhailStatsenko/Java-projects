@@ -6,6 +6,8 @@ import org.jsoup.select.*;
 
 import java.io.*;
 import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DownloadImg {
     private static final String url = "https://www.mirea.ru/";
@@ -48,5 +50,8 @@ public class DownloadImg {
         }
         out.close();
         in.close();
+
+//        String regex = "[\\u4E00-\\u9FA5]{5}\\d\\d[IVXCLDM]{2}";
+//        String regex2 = "(0?[1-9]|1(1|2)";
     }
 }
